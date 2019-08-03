@@ -37,3 +37,9 @@ management:
         include: hystrix.stream
 zuul:
   sensitive-headers: 
+
+rabbitmq:
+  host: 192.168.70.132
+  port: 5672
+  username: admin
+  password: admin
